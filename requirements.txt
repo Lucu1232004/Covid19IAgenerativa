@@ -1,0 +1,11 @@
+tensorflow>=2.15
+numpy
+matplotlib
+scikit-learn
+pandas
+seaborn
+pillow
+tqdm
+jupyter
+notebook
+kagglehub
