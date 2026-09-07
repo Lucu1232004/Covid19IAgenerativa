@@ -1,0 +1,50 @@
+# Python: cache y entornos (se regeneran solos, no aportan nada al repo)
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Jupyter: checkpoints automaticos (basura que crea el editor)
+.ipynb_checkpoints/
+
+# MLflow: los registros de experimentos pueden pesar GBs
+# Si quieren mostrar una corrida, exporten la tabla, no suban la carpeta
+mlruns/
+mlartifacts/
+
+# Kaggle: contiene tu API key. NUNCA subir esto a un repo
+.kaggle/
+
+# Modelos y pesos entrenados: pesan mucho y se regeneran corriendo los notebooks
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pth
+*.pt
+*.onnx
+modelos/
+pesos/
+checkpoints/
+
+# Datos descargados: se bajan con kagglehub al correr, no hace falta versionarlos
+datos/
+data/
+datasets/
+doc/
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+.gitignore
+presentacion.md
